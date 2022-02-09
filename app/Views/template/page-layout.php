@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My Landing page | Renn</title>
-  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="<?php echo base_url('/assets/image/favicon.png')?>" type="image/x-icon">
   <!-- Bootstrap , fonts & icons  -->
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
-  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
-  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <link rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.css')?>">
+  <link rel="stylesheet" href="<?php echo base_url('/assets/fonts/icon-font/css/style.css')?>">
+  <link rel="stylesheet" href="<?php echo base_url('/assets/fonts/typography-font/typo.css')?>">
+  <link rel="stylesheet" href="<?php echo base_url('/assets/fonts/fontawesome-5/css/all.css')?>">
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -19,10 +19,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <!-- Plugin'stylesheets  -->
-  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
-  <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+  <link rel="stylesheet" href="<?php echo base_url('/assets/plugins/aos/aos.min.css')?>">
+  <link rel="stylesheet" href="<?php echo base_url('/assets/plugins/slick/slick.min.css')?>">
   <!-- Vendor stylesheets  -->
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="<?php echo base_url('/assets/css/main.css')?>">
   <!-- Custom stylesheet -->
 </head>
 
@@ -32,7 +32,7 @@
     <!-- Preloader -->
     <!-- <div id="loading">
     <div class="preloader">
-     <img src="./image/preloader.gif" alt="preloader">
+     <img src="<?php echo base_url('./image/preloader.gif')?>" alt="preloader">
    </div>
    </div>    -->
     <!--Site Header Area -->
@@ -110,7 +110,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="footer-logo-l-11">
-              <a href="#"><img src="image/logo/logo-black.png" alt="logo"></a>
+              <a href="#"><img src="<?php echo base_url('/assets/image/logo/logo-black.png')?>" alt="logo"></a>
             </div>
           </div>
           <div class="col-md-6">
@@ -152,13 +152,13 @@
     </div>
   </div>
   <!-- Vendor Scripts -->
-  <script src="js/vendor.min.js"></script>
+  <script src="<?php echo base_url('/assets/js/vendor.min.js')?>"></script>
   <!-- Plugin's Scripts -->
-  <script src="./plugins/aos/aos.min.js"></script>
-  <script src="./plugins/slick/slick.min.js"></script>
-  <script src="./plugins/menu/menu.js"></script>
+  <script src="<?php echo base_url('/assets/plugins/aos/aos.min.js')?>"></script>
+  <script src="<?php echo base_url('/assets/plugins/slick/slick.min.js')?>"></script>
+  <script src="<?php echo base_url('/assets/plugins/menu/menu.js')?>"></script>
   <!-- Activation Script -->
-  <script src="js/custom.js"></script>
+  <script src="<?php echo base_url('/assets/js/custom.js')?>"></script>
 </body>
 
 </html>
