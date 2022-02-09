@@ -32,7 +32,7 @@
     <!-- Preloader -->
     <!-- <div id="loading">
     <div class="preloader">
-     <img src="<?php echo base_url('./image/preloader.gif')?>" alt="preloader">
+     <img src="#" alt="preloader">
    </div>
    </div>    -->
     <!--Site Header Area -->
