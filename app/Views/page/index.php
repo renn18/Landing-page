@@ -150,7 +150,7 @@
           </div>
           <div class="col-xxl-6 offset-xxl-2 col-xl-6 col-lg-5 col-md-9 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
             <div class="content-img">
-              <img src="<?php echo base_echo('/assets/image/l2/content-img2.png')?>" alt="" class="w-lg-auto w-100">
+              <img src="<?php echo base_url('/assets/image/l2/content-img2.png')?>" alt="" class="w-lg-auto w-100">
             </div>
           </div>
         </div>
