@@ -22,9 +22,9 @@
                   <div class="compitable-text border-top d-inline-block">
                     <p>Compitable with:</p>
                     <div class="compatible-icon flex-y-center img-grayscale">
-                      <a href="#" class="font-size-13 mr-7"><img src="./image/l2/windows.svg" alt=""></a>
-                      <a href="#" class="font-size-13 mr-7"><img src="./image/l2/apple.svg" alt=""></a>
-                      <a href="#" class="font-size-13"><img src="./image/l2/penguine.svg" alt=""></a>
+                      <a href="#" class="font-size-13 mr-7"><img src="<?php echo base_url('/assets/image/l2/windows.svg')?>" alt=""></a>
+                      <a href="#" class="font-size-13 mr-7"><img src="<?php echo base_url('/assets/image/l2/apple.svg')?>" alt=""></a>
+                      <a href="#" class="font-size-13"><img src="<?php echo base_url('/assets/image/l2/penguine.svg')?>" alt=""></a>
                     </div>
                   </div>
                 </div>
@@ -32,15 +32,15 @@
             </div>
           </div>
           <div class="col-lg-9 order-lg-1 order-0" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-            <img src="image/l2/laptop-screen.png" alt="" class="w-100 hero-l11-main-image">
+            <img src="<?php echo base_url('/assets/image/l2/laptop-screen.png')?>" alt="" class="w-100 hero-l11-main-image">
           </div>
         </div>
       </div>
       <div class="hero-shape-l11-1 d-none d-md-block">
-        <img src="./image/l2/hero-shape-1.svg" alt="">
+        <img src="<?php echo base_url('/assets/image/l2/hero-shape-1.svg')?>" alt="">
       </div>
       <div class="hero-shape-l11-2 d-none d-md-block">
-        <img src="./image/l2/hero-shape-2.png" alt="">
+        <img src="<?php echo base_url('/assets/image/l2/hero-shape-2.png')?>" alt="">
       </div>
     </div>
     <!-- Brand-area -->
@@ -50,19 +50,19 @@
           <div class="col-lg-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
             <div class="brand-logos d-flex justify-content-center justify-content-xl-between align-items-center flex-wrap ">
               <div class="single-brand">
-                <img src="image/l2/brand-logo.svg" alt="">
+                <img src="<?php echo base_url('/assets/image/l2/brand-logo.svg')?>" alt="">
               </div>
               <div class="single-brand">
-                <img src="image/l2/brand-logo-1.svg" alt="">
+                <img src="<?php echo base_url('/assets/image/l2/brand-logo-1.svg')?>" alt="">
               </div>
               <div class="single-brand">
-                <img src="image/l2/brand-logo-2.svg" alt="">
+                <img src="<?php echo base_url('/assets/image/l2/brand-logo-2.svg')?>" alt="">
               </div>
               <div class="single-brand">
-                <img src="image/l2/brand-logo-3.svg" alt="">
+                <img src="<?php echo base_url('/assets/image/l2/brand-logo-3.svg')?>" alt="">
               </div>
               <div class="single-brand">
-                <img src="image/l2/brand-logo-4.svg" alt="">
+                <img src="<?php echo base_url('/assets/image/l2/brand-logo-4.svg')?>" alt="">
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@
         <div class="row align-items-center justify-content-lg-start justify-content-center">
           <div class="col-xl-6 col-md-5 col-md-10" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
             <div class="content-img position-relative z-index-1">
-              <img src="image/l2/content-img1.png" alt="" class="w-100">
+              <img src="<?php echo base_url('/assets/image/l2/content-img1.png')?>" alt="" class="w-100">
             </div>
           </div>
           <div class="offset-xxl-1 col-xxl-5 col-xl-6 col-lg-7 col-md-9" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
@@ -140,7 +140,7 @@
                 </div>
               </div>
               <div class="d-flex content-l-11-3-card">
-                <img src="image/l2/settings.svg" alt="icon">
+                <img src="<?php echo base_url('/assets/image/l2/settings.svg')?>" alt="icon">
                 <div class="content-body">
                   <h5>Built for real users</h5>
                   <p>Editing and customizing Essential Landing is easy and fast.</p>
@@ -150,7 +150,7 @@
           </div>
           <div class="col-xxl-6 offset-xxl-2 col-xl-6 col-lg-5 col-md-9 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
             <div class="content-img">
-              <img src="image/l2/content-img2.png" alt="" class="w-lg-auto w-100">
+              <img src="<?php echo base_echo('/assets/image/l2/content-img2.png')?>" alt="" class="w-lg-auto w-100">
             </div>
           </div>
         </div>
@@ -162,7 +162,7 @@
         <div class="row align-items-center justify-content-center justify-content-lg-start">
           <div class="col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="content-img">
-              <img src="image/l2/content-img3.png" alt="" class="w-100">
+              <img src="<?php echo base_url('/assets/image/l2/content-img3.png')?>" alt="" class="w-100">
             </div>
           </div>
           <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
@@ -307,7 +307,7 @@
                   </p>
                   <div class="d-flex user-details align-items-center">
                     <div class="customer-img">
-                      <img src="image/l2/client-img-2.png" alt="">
+                      <img src="<?php echo base_url('/assets/image/l2/client-img-2.png')?>" alt="">
                     </div>
                     <div class="user-identity">
                       <h5>Sallie Lawson</h5>
@@ -326,7 +326,7 @@
                   </p>
                   <div class="d-flex user-details  align-items-center">
                     <div class="customer-img">
-                      <img src="image/l2/client-img-1.png" alt="">
+                      <img src="<?php echo base_url('/assets/image/l2/client-img-1.png')?>" alt="">
                     </div>
                     <div class="user-identity">
                       <h5>Ella Brooks</h5>
@@ -345,7 +345,7 @@
                   </p>
                   <div class="d-flex user-details  align-items-center">
                     <div class="customer-img">
-                      <img src="image/l2/client-img-2.png" alt="">
+                      <img src="<?php echo base_url('/assets/image/l2/client-img-2.png')?>" alt="">
                     </div>
                     <div class="user-identity">
                       <h5>Sallie Lawson</h5>
