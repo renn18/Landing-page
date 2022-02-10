@@ -68,7 +68,7 @@
                       <a href="#cv">Curriculum Vitae (CV)</a>
                     </li>
                     <li class="sub-menu--item">
-                      <a href="#">Portofolio</a>
+                      <a href="#portofolio">Portofolio</a>
                     </li>
                     <li class="sub-menu--item">
                       <a href="#testimonial">Testimonial</a>

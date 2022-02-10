@@ -187,7 +187,7 @@
       </div>
     </div>
     <!-- Feature Area -->
-    <div class="feature-l-11">
+    <div class="feature-l-11" id="portofolio">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-9 px-lg-12 col-md-12">
@@ -195,7 +195,7 @@
               <div class="col-lg-10 text-center">
                 <div class="section-heading-5">
                   <h2>
-                    One Software, Every Solution
+                    Portofolio
                   </h2>
                   <p>We designed and tested prototypes that helped identify pain points in the account
                     creation process. Together, we shaped the new standard.</p>
