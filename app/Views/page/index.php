@@ -69,7 +69,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-6"></div>
+    <div class="mt-6" id="cv"></div>
     <div class="newsletter-l-11">
       <div class="container">
         <div class="row justify-content-center news-l-11-main-bg position-relative">

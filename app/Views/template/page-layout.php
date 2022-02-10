@@ -63,9 +63,9 @@
                 <li class="nav-item nav-item-has-children">
                   <a href="#" class="nav-link-item drop-trigger">Menu <i class="fas fa-angle-down"></i>
                   </a>
-                  <ul class="sub-menu" id="submenu-9">
+                  <ul class="sub-menu">
                     <li class="sub-menu--item">
-                      <a href="#">Curriculum Vitae (CV)</a>
+                      <a href="#cv">Curriculum Vitae (CV)</a>
                     </li>
                     <li class="sub-menu--item">
                       <a href="#">Portofolio</a>
