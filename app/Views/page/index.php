@@ -81,7 +81,7 @@
               <p>We designed and tested prototypes that helped identify pain points in the account creation
                 process. Together, we shaped the new standard.</p>
               <div class="btn-area">
-                <a href="#" class="btn"><i class="fas fa-download d-inline-block"></i> Download CV</a>
+                <a href="https://drive.google.com/file/d/1kA-cPhL-OcNXliwIRalPzi80NFM3tJ4q/view?usp=sharing" target="_blank" class="btn"><i class="fas fa-download d-inline-block"></i> Download CV</a>
               </div>
               <span>File in pdf extention</span>
             </div>
