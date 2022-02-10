@@ -71,7 +71,7 @@
                       <a href="#">Portofolio</a>
                     </li>
                     <li class="sub-menu--item">
-                      <a href="#">Contact</a>
+                      <a href="#testimonial">Testimonial</a>
                     </li>
                   </ul>
                 </li>
