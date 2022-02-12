@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My Landing page | Renn</title>
+  <!-- Landing Page Link -->
   <link rel="shortcut icon" href="<?php echo base_url('/assets/image/favicon.png')?>" type="image/x-icon">
-  <!-- Bootstrap , fonts & icons  -->
   <link rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.css')?>">
   <link rel="stylesheet" href="<?php echo base_url('/assets/fonts/icon-font/css/style.css')?>">
   <link rel="stylesheet" href="<?php echo base_url('/assets/fonts/typography-font/typo.css')?>">
@@ -18,12 +18,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <!-- Plugin'stylesheets  -->
   <link rel="stylesheet" href="<?php echo base_url('/assets/plugins/aos/aos.min.css')?>">
   <link rel="stylesheet" href="<?php echo base_url('/assets/plugins/slick/slick.min.css')?>">
-  <!-- Vendor stylesheets  -->
   <link rel="stylesheet" href="<?php echo base_url('/assets/css/main.css')?>">
-  <!-- Custom stylesheet -->
+  
 </head>
 
 <body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
@@ -151,14 +149,27 @@
       </div>
     </div>
   </div>
-  <!-- Vendor Scripts -->
+
+  <!-- Landing Page Script -->
   <script src="<?php echo base_url('/assets/js/vendor.min.js')?>"></script>
-  <!-- Plugin's Scripts -->
   <script src="<?php echo base_url('/assets/plugins/aos/aos.min.js')?>"></script>
   <script src="<?php echo base_url('/assets/plugins/slick/slick.min.js')?>"></script>
   <script src="<?php echo base_url('/assets/plugins/menu/menu.js')?>"></script>
-  <!-- Activation Script -->
   <script src="<?php echo base_url('/assets/js/custom.js')?>"></script>
+
+  <!-- Login Page Script -->
+  <script src="<?php echo base_url('/assets/vendor/jquery/jquery-3.2.1.min.js')?>"></script>
+	<script src="<?php echo base_url('/assets/vendor/bootstrap/js/popper.js')?>"></script>
+	<script src="<?php echo base_url('/assets/vendor/bootstrap/js/bootstrap.min.js')?>"></script>
+	<script src="<?php echo base_url('/assets/vendor/select2/select2.min.js')?>"></script>
+	<script src="<?php echo base_url('/assets/vendor/tilt/tilt.jquery.min.js')?>"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+	<script src="<?php echo base_url('/assets/js/main.js')?>"></script>
+
 </body>
 
 </html>
