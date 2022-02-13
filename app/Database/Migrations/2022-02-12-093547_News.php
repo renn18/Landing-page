@@ -14,11 +14,11 @@ class News extends Migration
                 'type'              => 'INT',
                 'constraint'        => 5,
                 'unsigned'          => true,
-                'auto_increment'    => true,
+                'auto_increment'    => true
             ],
             'title' => [
                 'type'              => 'VARCHAR',
-                'constraint'        => '255',
+                'constraint'        => '255'
             ],
             'author' => [
                 'type'              => 'VARCHAR',
@@ -26,10 +26,15 @@ class News extends Migration
                 'default'           => 'John Doe',
             ],
             'content' => [
+                'type'              => 'TEXT',
+                'null'              => true,
+            ],
+            'status' => [
                 'type'              => 'ENUM',
-                'constraint'        => ['published', 'darft'],
+                'constraint'        => ['published', 'draft'],
                 'default'           => 'draft',
             ],
+            'created_at DATETIME DEFAULT CURRENT_TIMESTAMP'
         ]);
 
         // Membuat primary key
