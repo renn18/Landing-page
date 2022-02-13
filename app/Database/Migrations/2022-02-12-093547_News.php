@@ -8,11 +8,40 @@ class News extends Migration
 {
     public function up()
     {
-        //
+        // Membuat kolom/field untuk tabel news
+        $this->forge->addField([
+            'id'    => [
+                'type'              => 'INT',
+                'constraint'        => 5,
+                'unsigned'          => true,
+                'auto_increment'    => true,
+            ],
+            'title' => [
+                'type'              => 'VARCHAR',
+                'constraint'        => '255',
+            ],
+            'author' => [
+                'type'              => 'VARCHAR',
+                'constraint'        => 100,
+                'default'           => 'John Doe',
+            ],
+            'content' => [
+                'type'              => 'ENUM',
+                'constraint'        => ['published', 'darft'],
+                'default'           => 'draft',
+            ],
+        ]);
+
+        // Membuat primary key
+        $this->forge->addKey('id', TRUE);
+
+        // Membuat tabel news
+        $this->forge->createTable('news', TRUE);
     }
 
     public function down()
     {
-        //
+        // Menghapus tabel news
+        $this->forge->dropTable('news');
     }
 }
