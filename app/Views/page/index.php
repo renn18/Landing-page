@@ -196,8 +196,7 @@
                   <h2>
                     Portofolio
                   </h2>
-                  <p>We designed and tested prototypes that helped identify pain points in the account
-                    creation process. Together, we shaped the new standard.</p>
+                  <p>Developers create simple and attractive websites. Several projects that have been or are being worked on by the developer.</p>
                 </div>
               </div>
             </div>
