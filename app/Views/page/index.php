@@ -103,8 +103,7 @@
               <h2>
                 Build Beautiful Landing Pages Faster.
               </h2>
-              <p>Create custom landing pages with Shades that convert more visitors than any website, no coding
-                required.</p>
+              <p>create a landing page that is simple and easy to use, user convenience is also a developer priority</p>
             </div>
           </div>
         </div>
@@ -209,9 +208,8 @@
                     <i class="icon icon-pen-01"></i>
                   </div>
                   <div class="content-body">
-                    <h5>Easy to Use</h5>
-                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
-                      development teams.</p>
+                    <a href="https://imagenetic.minur.id" target= "_blank"><h5>Website Portal Imagenetic</h5></a>
+                    <p>A website that is engaged in IT and makes the website a portal for news, announcements, or about imagenetics</p>
                   </div>
                 </div>
               </div>
